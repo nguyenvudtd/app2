@@ -18,3 +18,17 @@ git push -u origin bug-fixes
 
 rm -f .git/index.lock
 git reset
+
+Khi update
+git reset
+git add.
+git remote remove origin
+git remote add origin https://github.com/nguyenvudtd/app2.git
+git push -u origin main
+
+rm -rf .git/
+git init
+git remote add origin https://repository.remote.url
+git add .
+git commit -m "Commit message here"
+git push -f origin master
