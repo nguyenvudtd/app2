@@ -15,3 +15,6 @@ https://www.freecodecamp.org/news/git-push-local-branch-to-remote-how-to-publish
 git add.
 git commit -m 'commit message'
 git push -u origin bug-fixes
+
+rm -f .git/index.lock
+git reset
